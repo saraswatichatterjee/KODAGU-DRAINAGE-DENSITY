@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Most of Kodagu shows high drainage density in red/orange indicating dense network of streams per unit area, while scattered blue patches show low density indicating fewer channels and more permeable terrain.';
+                this._div.innerHTML = 'Blue areas have high Drainage Density meaning many closely spaced streams with rapid runoff and poor infiltration, while red areas have low Drainage Density meaning widely spaced streams with slow runoff and better groundwater recharge.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
